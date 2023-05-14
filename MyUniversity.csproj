@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="applyIn.html" />
     <Content Include="education.html" />
     <Content Include="internationalActivity.html" />
     <Content Include="live.html" />
