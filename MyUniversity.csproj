@@ -67,10 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="applyIn.html" />
     <Content Include="education.html" />
     <Content Include="internationalActivity.html" />
     <Content Include="live.html" />
+    <Content Include="pic\pic3.png" />
+    <Content Include="pic\pic4.png" />
     <Content Include="science.html" />
     <Content Include="university.html" />
     <Content Include="istu.html" />
