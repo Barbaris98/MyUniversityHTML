@@ -4,8 +4,43 @@
     <meta charset="utf-8" />
     <title>ИжГТУ</title>
     <link href="istuCSS.css" rel="stylesheet" />
+    <style type="text/css">
+        .header {
+            height: 60px;
+            background-color: aquamarine;
+            padding: 20px;
+        }
+
+        .left_col {
+            width: 120px;
+            height: 460px;
+            background-color: #dddddd;
+            padding: 15px;
+            vertical-align: top
+        }
+
+        .center_col {
+            background-color: #ffffff;
+            padding: 15px;
+            vertical-align: top
+        }
+
+        .right_col {
+            width: 120px;
+            background-color: #dddddd;
+            padding: 15px;
+            vertical-align: top
+        }
+
+        .footer {
+            padding: 10px 0 10px 20px;
+            background-color: #717dc9;
+            font-size: 13px
+        }
+    </style>
 </head>
 <body>
+    <!--
     <h1>ИжГТУ</h1>
     <hr />
     <div class="firstDiv">
@@ -24,14 +59,14 @@
             </script>
         </h2>
 
-        <!--<img src="pic/pic1.png" alt="Error image" />-->
-        <p class="textDivCenter">
-            <img src="pic/pic1.png" alt="Error image" align="left" />
-            ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ
-            <br>
-            <br>
-            ИЖЕВСКИЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ М.Т. КАЛАШНИКОВА
-        </p>
+        <!--<img src="pic/pic1.png" alt="Error image" />
+    <p class="textDivCenter">
+        <img src="pic/pic1.png" alt="Error image" align="left" />
+        ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ
+        <br>
+        <br>
+        ИЖЕВСКИЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ М.Т. КАЛАШНИКОВА
+    </p>
     </div>
     <div>
         <br>
@@ -52,7 +87,59 @@
             <area href="https://istu.ru/abiturients" shape="rect" coords="943, 5, 1118, 37" title="ПОСТУПИТЬ!" alt="ПОСТУПИТЬ!" />
         </map>
     </div>
+    >-->
 
+    <table cellpadding="0" cellspacing="0" width="100%" align="center">
+        <tr>
+            <td colspan="3" class="header">
+                <div>
+                    <h2>
+                        <script language="javascript" type="text/javascript">
+                            var d = new Date();
+
+                            var day = new Array("Воскресенье", "Понедельник", "Вторник",
+                                "Среда", "Четверг", "Пятница", "Суббота");
+
+                            var month = new Array("января", "февраля", "марта", "апреля", "мая", "июня",
+                                "июля", "августа", "сентября", "октября", "ноября", "декабря");
+
+                            document.write(day[d.getDay()] + " " + d.getDate() + " " + month[d.getMonth()]
+                                + " " + d.getFullYear() + " г.");
+                        </script>
+                    </h2>
+
+                    <!--<img src="pic/pic1.png" alt="Error image" />-->
+                    <p class="textDivCenter">
+                        <img src="pic/pic1.png" alt="Error image" align="left" />
+                        ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ ВЫСШЕГО ОБРАЗОВАНИЯ
+                        <br>
+                        <br>
+                        ИЖЕВСКИЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ ИМЕНИ М.Т. КАЛАШНИКОВА
+                    </p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="left_col">Меню</td>
+            <td class="center_col">
+                <div>
+                    <img src="pic/pic2.png" alt="Error image" usemap="#firstMap" />
+                    <map name="firstMap">
+                        <area href="university.html" shape="rect" coords="5, 5, 120, 37" title="Университет" alt="Университет" />
+                        <area href="education.html" shape="rect" coords="130, 5, 261, 37" title="Образование" alt="Образование" />
+                        <area href="science.html" shape="rect" coords="270, 5, 445, 37" title="Наука и иновации" alt="Наука и иновации" />
+                        <area href="live.html" shape="rect" coords="463, 5, 654, 37" title="Студентческая жизнь" alt="Студентческая жизнь" />
+                        <area href="internationalActivity.html" shape="rect" coords="662, 5, 933, 37" title="Международная деятельность" alt="Международная деятельность" />
+                        <area href="https://istu.ru/abiturients" shape="rect" coords="943, 5, 1118, 37" title="ПОСТУПИТЬ!" alt="ПОСТУПИТЬ!" />
+                    </map>
+                </div>
+            </td>
+            <td class="right_col">Ссылки</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="footer">&copy; Все права защищены</td>
+        </tr>
+    </table>
 
 </body>
 </html>
