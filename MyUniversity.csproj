@@ -75,6 +75,8 @@
     <Content Include="pic\pic4.png" />
     <Content Include="pic\pic5.png" />
     <Content Include="pic\pic6.png" />
+    <Content Include="pic\pic7.png" />
+    <Content Include="pic\pic8.png" />
     <Content Include="science.html" />
     <Content Include="university.html" />
     <Content Include="istu.html" />
